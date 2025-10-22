@@ -1,0 +1,24 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background -->
+  <rect width="512" height="512" rx="102.4" fill="url(#grad)"/>
+  
+  <!-- Form icon - stylized document with lines -->
+  <g transform="translate(128, 102.4)">
+    <!-- Document shape -->
+    <rect x="0" y="0" width="256" height="307.2" rx="15.36" fill="white" opacity="0.95"/>
+    
+    <!-- Form lines -->
+    <rect x="40.96" y="51.2" width="174.08" height="15.36" rx="7.68" fill="#3b82f6"/>
+    <rect x="40.96" y="102.4" width="174.08" height="15.36" rx="7.68" fill="#3b82f6"/>
+    <rect x="40.96" y="153.6" width="128" height="15.36" rx="7.68" fill="#60a5fa"/>
+    <rect x="40.96" y="204.8" width="174.08" height="15.36" rx="7.68" fill="#60a5fa"/>
+  </g>
+</svg>
